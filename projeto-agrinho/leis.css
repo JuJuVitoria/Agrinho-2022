@@ -1,0 +1,93 @@
+body {
+    background: #353535;
+    font-family: arial;
+}
+
+header {
+    background: #222222;
+    padding: 60px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 10%;
+}
+
+.titulo-principal {
+    padding: 0 0 0 120px;
+    position: absolute;
+    top: 40px;
+    text-transform: uppercase;
+    color: #e4e4e4;
+    font-weight:bold;
+    font-size: 27px;
+}
+
+nav {
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #e4e4e4;
+    font-weight:bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #7c3939;
+    text-decoration: underline;
+}
+
+.borda {
+    padding: 15px 200px;
+}
+
+.imagens-centro {
+    width: 60%;
+    margin:auto;
+    display: block;
+    padding: 20px 0;
+}
+
+.titulo-centralizado {
+    text-align: center;
+    color: #e4e4e4;
+    font-size: 25px;
+    line-height: 2.0;
+}
+
+p {
+    text-align: center;
+    color: #e4e4e4;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+footer {
+    background: #222222;
+    padding: 40px 20px;
+}
+
+.logo-footer {
+    margin:auto;
+    display: block;
+    width: 10%;
+}
+
+footer p {
+    text-align: center;
+}
